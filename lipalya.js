@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const settingsMenuDropdown = document.getElementById('settings-menu-dropdown');
     const currentModeText = document.getElementById('current-mode-text');
 
-    const API_KEY = 'AIzaSyAhXd4KXP3bHa2cJz44oLyYGVYXUU8Lqug';
+    const API_KEY = 'AIzaSyBKKZMbYnAEfe5jG7PhmLZzV9ankV93Lyc';
     const MODEL_NAME = 'gemini-2.0-flash';
     const API_URL = `https://generativelanguage.googleapis.com/v1beta/models/${MODEL_NAME}:generateContent?key=${API_KEY}`;
     
